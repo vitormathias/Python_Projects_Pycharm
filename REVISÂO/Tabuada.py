@@ -1,0 +1,16 @@
+# Nessa atividade vamos criar um programa que ajudará os alunos a aprender tabuada
+
+print(" Olá amigo(a) estudante, vamos aprender tabuada ?")
+n = int(input('Digite o número o qual você quer saber a  tabuada: '))
+print('A tabuada de {} será abresentada logo abaixo:' .format(n))
+print("{} * 0 = {:>3}" .format(n, (n * 0)))
+print('{} * 1 = {:>3}' .format(n, (n*1)))
+print('{} * 2 = {:>3}' .format(n, (n*2)))
+print('{} * 3 = {:>3}' .format(n, (n*3)))
+print('{} * 4 = {:>3}' .format(n, (n*4)))
+print('{} * 5 = {:>3}' .format(n, (n*5)))
+print('{} * 6 = {:>3}' .format(n, (n*6)))
+print('{} * 7 = {:>3}' .format(n, (n*7)))
+print('{} * 8 = {:>3}' .format(n, (n*8)))
+print('{} * 9 = {:>3}' .format(n, (n*9)))
+print('{} * 10 = {}' .format(n, (n*10)))
